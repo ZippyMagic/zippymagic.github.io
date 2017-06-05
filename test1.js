@@ -40,7 +40,7 @@ return binString;
 
 
 
-    document.cookie = c + "=" + u + ";";
+    document.cookie = "uName=" + u + ";";
 
     
     
