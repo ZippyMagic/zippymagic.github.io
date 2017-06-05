@@ -1,5 +1,4 @@
 /* Copyright Drizzle LTE
-
 Created by @ZippyMagic
 Version {{version}}
 */
@@ -14,10 +13,14 @@ return binString;
 }
 
 
+(function () {
 
-function startDrizzle( c, u) {
 
-
+      
+    var u = binaryAgent(document.getElementById("drizzle-uname").innerHTML);
+    
+    
+       
     var HEADER = document.createElement("div");
     var CREDIT_ELEMENT = document.createElement("p");
     var CREDIT_ELEMENT_LOGO = document.createElement("P");
@@ -39,13 +42,6 @@ function startDrizzle( c, u) {
 
     document.cookie = c + "=" + u + ";";
 
-}
-
-
-
-
-
-window.onload = function() {
-    var u = binaryAgent(document.getElementById("drizzle-uname").innerHTML);
-    startDrizzle( "accountUN", u);
-};
+    
+    
+})();
