@@ -23,7 +23,7 @@ return binString;
 
     var HEADER = document.createElement("DIV");
         HEADER.id = 'drizzle-header';
-        HEADER.style = "display: block; position: absolute; float: right; top: 0px; right: 0px; border: 2px solid purple;";
+        HEADER.style = "display: block; position: absolute; float: right; top: 0px; right: 0px; border: 1px solid purple;";
         document.body.appendChild(HEADER);
     var CREDIT_ELEMENT = document.createElement("P");
     var CREDIT = document.createTextNode("Powered by ");
