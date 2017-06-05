@@ -24,9 +24,9 @@ return binString;
     
     
        
-    var HEADER = document.createElement("div");
-    var CREDIT_ELEMENT = document.createElement("p");
-    var CREDIT_ELEMENT_LOGO = document.createElement("P");
+    var HEADER = document.createElement("DIV");
+    var CREDIT_ELEMENT = document.createElement("P");
+    var CREDIT_ELEMENT_LOGO = document.createElement("LOGO");
     var CREDIT = document.createTextNode("Powered by ");
     var CREDIT2 = document.createTextNOde("DRIZZLE");
         HEADER.style = "display: block; position: absolute; float: right; top: 0px; right: 0px; border: 2px solid purple;";
