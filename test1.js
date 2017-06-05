@@ -31,7 +31,7 @@ function startDrizzle( c, u) {
         CREDIT_ELEMENT_LOGO.appendChild(CREDIT2);
         CREDIT_ELEMENT.style = "padding: 4px 2px 4px 2px; text-color: lightGray; font-color: lightGray; color: lightGray;";
         CREDIT_ELEMENT_LOGO.style = "text-color: purple; color: purple; font-color: purple;";
-        document.body.appendChild(HEADER);
+        document.getElementById("body").appendChild(HEADER);
         document.getElementById("drizzle-header").appendChild(CREDIT_ELEMENT);
         document.getElementById("drizzle-element").appendChild(CREDIT_ELEMENT_LOGO);
 
