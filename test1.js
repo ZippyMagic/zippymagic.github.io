@@ -2,6 +2,9 @@
 Created by @ZippyMagic
 Version {{version}}
 */
+
+
+
 function binaryAgent(str) {
 
 var binString = '';
